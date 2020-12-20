@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.about-heading{
+    font-family: var(--font2);
+    text-align: center;
+    padding-top: 30px;
+    width: 80vw;
+    margin: auto;
+    height: auto;
+    margin-bottom: 40px;
+}
+.about-heading p{
+    font-family: var(--font2);
+    letter-spacing: 2px;
+}
+.about-heading h1{
+    font-size: 35px;
+    font-family: var(--font2);
+}
+@media (max-width: 480px){
+    .about-heading{
+        width: 70%;
+    }
+}

@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.members-1{
+    display: flex;
+    width: 80vw;
+    margin: auto;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    text-align: center;
+}
+.mems-1 img{
+    width: 250px;
+    cursor: pointer;
+}
+.mems-1 img:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+.mems-1 p{
+    font-family: var(--font2);
+    font-size: 25px;
+    width: 26vw;
+}
